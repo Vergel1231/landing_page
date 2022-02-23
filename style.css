@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #65ccb8;
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+}
+
+.header,
+.navbar {
+  background: #65ccb8 !important;
+}
+
+.navbar-brand:hover img {
+  border: #f2f2f2 5px solid;
+  transition: 0.5s;
+}
+
+.nav-link {
+  color: #182628 !important;
+}
+.nav-link:hover {
+  color: #f2f2f2 !important;
+  text-decoration: underline !important;
+}
+
+.text-box h1 {
+  padding-top: 8rem;
+  font-size: 48px extra-bold;
+}
+
+.text-box {
+  color: #f9faf8 !important;
+}
+
+/* images */
+.images h1 {
+  color: #f2f2f2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.images {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.images-col {
+  flex-basis: 30%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images-col img {
+  width: 100%;
+  display: block;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: #3b945e;
+}
+
+.layer p {
+  width: 90%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover p {
+  bottom: 49%;
+  opacity: 1;
+}
+
+.images.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* testimony */
+.quotes {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.quotes h3 {
+  color: #f2f2f2;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* cta */
+.cta {
+  background-color: #57ba98;
+  padding: 3rem !important;
+}
+
+.btn {
+  border: 2px solid #f2f2f2;
+}
+
+btn:hover {
+  background-color: #57ba98 !important;
+  color: #f2f2f2;
+}
+
+.text-box p {
+  margin: 0px;
+  font-size: 18px;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  align-self: stretch;
+}
+footer p {
+  color: #f2f2f2;
+}
